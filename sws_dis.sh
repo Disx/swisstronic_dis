@@ -8,7 +8,7 @@ sudo apt-get update && sudo apt get upgrade -y
 clear
 
 echo “Installing Hardhat and dotenv…”
-npm install — save-dev hardhat
+npm install -save-dev hardhat
 npm install dotenv
 npm install @swisstronik/utils
 echo “Installation completed.”
@@ -22,7 +22,7 @@ echo “Lock.sol removed.”
 echo “Hardhat project created.”
 
 echo “Installing Hardhat toolbox…”
-npm install — save-dev @nomicfoundation/hardhat-toolbox
+npm install -save-dev @nomicfoundation/hardhat-toolbox
 echo “Hardhat toolbox installed.”
 
 echo “Creating .env file…”
